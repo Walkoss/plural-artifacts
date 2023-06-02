@@ -3,10 +3,10 @@ name: airbyte
 description: Unified data integration platform
 type: application
 version: 0.4.16
-appVersion: 0.44.2
+appVersion: 0.44.7
 dependencies:
 - name: airbyte
-  version: 0.43.22
+  version: 0.45.25
   repository: file://../../../../airbyte/charts/airbyte
 - name: postgres
   version: 0.1.16
