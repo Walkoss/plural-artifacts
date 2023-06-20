@@ -17,7 +17,7 @@ module "dagster-workload-identity" {
   use_existing_k8s_sa = true
   annotate_k8s_sa     = false
   k8s_sa_name         = "dagster"
-  roles               = ["roles/storage.admin"]
+  roles               = var.roles
 }
 
 module "gcs_buckets" {

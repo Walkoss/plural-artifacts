@@ -18,3 +18,9 @@ variable "project_id" {
 variable "bucket_location" {
   type = string
 }
+
+variable "roles" {
+  type = list(string)
+  default = ["roles/storage.admin"]
+  description = "List of roles to grant to the service account"
+}
